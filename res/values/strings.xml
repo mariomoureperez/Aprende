@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aprender</string>
+    <string name="musica">Música</string>
+    <string name="animal">Animales</string>
+    <string name="cosas">Cosas</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="colores">Colores</string>
+    <string name="letras">Letras</string>
+    <string name="numeros">Números</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mario.aprender.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡ Hola !"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#ef9a9a"
+        android:layout_marginLeft="110dp"
+        />
+
+    <Button
+        android:id="@+id/letras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/letras"
+        android:drawablePadding="8dp"
+        android:text="@string/letras"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ef9a9a"
+        android:layout_marginRight="200dp" />
+    <Button
+        android:id="@+id/numeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="210dp"
+        android:drawableLeft="@drawable/numeric"
+        android:drawablePadding="8dp"
+        android:text="@string/numeros"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ef9a9a"/>
+    <Button
+        android:id="@+id/cosas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/cosas"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ef9a9a"
+        android:drawableLeft="@drawable/car"
+        android:drawablePadding="8dp"
+        android:layout_marginRight="200dp" />
+    <Button
+        android:id="@+id/animales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="210dp"
+        android:drawableLeft="@drawable/panda"
+        android:drawablePadding="8dp"
+        android:text="@string/animal"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ef9a9a"
+
+        />
+    <Button
+        android:id="@+id/musica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:drawableLeft="@drawable/musica"
+        android:drawablePadding="8dp"
+        android:text="@string/musica"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ef9a9a"
+        android:layout_marginRight="200dp" />
+    <Button
+        android:id="@+id/colores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="210dp"
+        android:drawableLeft="@drawable/musica"
+        android:drawablePadding="8dp"
+        android:text="@string/colores"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#ef9a9a"
+
+        />
+</RelativeLayout>
