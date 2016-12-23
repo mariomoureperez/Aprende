@@ -24,75 +24,81 @@
 
     <Button
         android:id="@+id/letras"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
         android:drawableLeft="@drawable/letras"
         android:drawablePadding="8dp"
         android:text="@string/letras"
         android:textColor="@android:color/white"
         android:backgroundTint="#ef9a9a"
-        android:layout_marginRight="200dp" />
+        android:layout_marginRight="190dp"
+        android:textStyle="normal|bold"
+        android:layout_width="400dp" />
     <Button
         android:id="@+id/numeros"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:layout_marginLeft="210dp"
+        android:layout_marginLeft="190dp"
         android:drawableLeft="@drawable/numeric"
         android:drawablePadding="8dp"
         android:text="@string/numeros"
         android:textColor="@android:color/white"
-        android:backgroundTint="#ef9a9a"/>
+        android:backgroundTint="#ef9a9a"
+        android:textStyle="normal|bold"
+        android:layout_marginRight="0dp" />
     <Button
         android:id="@+id/cosas"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
         android:text="@string/cosas"
         android:textColor="@android:color/white"
         android:backgroundTint="#ef9a9a"
         android:drawableLeft="@drawable/car"
         android:drawablePadding="8dp"
-        android:layout_marginRight="200dp" />
+        android:layout_marginRight="190dp"
+        android:textStyle="normal|bold" />
     <Button
         android:id="@+id/animales"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="210dp"
+        android:layout_marginLeft="190dp"
         android:drawableLeft="@drawable/panda"
         android:drawablePadding="8dp"
         android:text="@string/animal"
         android:textColor="@android:color/white"
         android:backgroundTint="#ef9a9a"
 
-        />
+        android:textStyle="normal|bold"
+        android:layout_marginRight="0dp" />
     <Button
         android:id="@+id/musica"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="10dp"
         android:drawableLeft="@drawable/musica"
         android:drawablePadding="8dp"
         android:text="@string/musica"
         android:textColor="@android:color/white"
         android:backgroundTint="#ef9a9a"
-        android:layout_marginRight="200dp" />
+        android:layout_marginRight="190dp"
+        android:textStyle="normal|bold" />
     <Button
         android:id="@+id/colores"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="210dp"
+        android:layout_marginLeft="190dp"
         android:drawableLeft="@drawable/musica"
         android:drawablePadding="8dp"
         android:text="@string/colores"
         android:textColor="@android:color/white"
         android:backgroundTint="#ef9a9a"
 
-        />
+        android:textStyle="normal|bold" />
 </RelativeLayout>
