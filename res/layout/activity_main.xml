@@ -23,10 +23,9 @@
 
     <Button
         android:id="@+id/letras"
-        android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="10dp"
-        android:drawableLeft="@drawable/letras"
+        android:drawableLeft="@drawable/a"
         android:drawableTint="?android:attr/colorControlActivated"
         android:drawablePadding="8dp"
         android:text="@string/letras"
@@ -34,7 +33,8 @@
         android:backgroundTint="@android:color/white"
         android:layout_marginRight="190dp"
         android:textStyle="normal|bold"
-        android:layout_width="400dp" />
+        android:layout_width="400dp"
+        android:layout_height="55dp" />
     <Button
         android:id="@+id/numeros"
         android:layout_width="400dp"

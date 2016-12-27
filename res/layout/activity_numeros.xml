@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_numeros"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mario.aprender.Numeros"
+    android:background="@drawable/fondoNum">
+
+    <TextView
+        android:id="@+id/N"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N"
+        android:layout_marginLeft="0dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/U"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ú"
+        android:layout_marginLeft="50dp"
+        android:textSize="40sp"
+        android:textColor="?android:attr/colorMultiSelectHighlight"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E"
+        android:layout_marginLeft="155dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_purple"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:layout_marginLeft="200dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/O"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O"
+        android:layout_marginLeft="250dp"
+        android:textSize="40sp"
+        android:textColor="#795548"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:layout_marginLeft="300dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:layout_marginLeft="20dp"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/U"
+        android:layout_toEndOf="@+id/U"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold" />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:columnCount="5"
+        android:rowCount="7"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/n1"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="1"/>
+        <Space
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowSpan="7"/>
+
+
+
+        </GridLayout>
+</RelativeLayout>

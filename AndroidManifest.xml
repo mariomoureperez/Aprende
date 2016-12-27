@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Letras"></activity>
+        <activity android:name=".Letras" />
+        <activity android:name=".Numeros"></activity>
     </application>
 
 </manifest>

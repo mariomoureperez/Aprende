@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
         android:layout_marginLeft="50dp"
-        android:drawableLeft="@drawable/letras"
+        android:drawableLeft="@drawable/a"
         android:drawablePadding="8dp"
         android:text="@string/letras"
         android:textColor="?attr/colorAccent"
