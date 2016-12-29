@@ -28,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        numeros.setOnClickListener(new View.OnClickListener(){
+            //@Override
+            public void onClick(View v){
+                num();
+            }
+
+        });
+
 
     }
 
@@ -39,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
 
         //Iniciando la actividad Visor
         Intent intent = new Intent(this,Letras.class);
+        startActivity(intent);
+
+    }
+
+    public void num(){
+
+        //Iniciando la actividad Visor
+        Intent intent = new Intent(this,Numeros.class);
         startActivity(intent);
 
     }
