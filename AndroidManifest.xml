@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Letras" />
-        <activity android:name=".Numeros"></activity>
+        <activity android:name=".Numeros" />
+        <activity android:name=".Frutas"></activity>
     </application>
 
 </manifest>
