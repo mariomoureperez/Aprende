@@ -7,6 +7,13 @@
     <string name="colores">Colores</string>
     <string name="letras">Letras</string>
     <string name="numeros">Números</string>
+    <string name="n">N</string>
+    <string name="u">Ú</string>
+    <string name="m">M</string>
+    <string name="e">E</string>
+    <string name="r">R</string>
+    <string name="o">O</string>
+    <string name="s">S</string>
 
 
 </resources>
