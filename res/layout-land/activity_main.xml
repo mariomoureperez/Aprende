@@ -89,9 +89,9 @@
         android:layout_width="150dp" />
 
     <Button
-        android:id="@+id/cosas"
+        android:id="@+id/frutas"
         android:layout_height="wrap_content"
-        android:text="@string/cosas"
+        android:text="@string/frutas"
         android:textColor="@android:color/holo_red_dark"
         android:backgroundTint="@android:color/background_light"
         android:drawableLeft="@drawable/food"

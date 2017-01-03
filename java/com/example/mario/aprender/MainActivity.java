@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button letras=(Button) findViewById(R.id.letras);
         Button numeros=(Button) findViewById(R.id.numeros);
-        Button cosas=(Button) findViewById(R.id.cosas);
+        Button frutas=(Button) findViewById(R.id.frutas);
         Button musica=(Button) findViewById(R.id.musica);
         Button colores=(Button) findViewById(R.id.colores);
         Button animales=(Button) findViewById(R.id.animales);
@@ -32,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
             //@Override
             public void onClick(View v){
                 num();
+            }
+
+        });
+
+        frutas.setOnClickListener(new View.OnClickListener(){
+            //@Override
+            public void onClick(View v){
+                fru();
             }
 
         });
@@ -55,6 +63,14 @@ public class MainActivity extends AppCompatActivity {
 
         //Iniciando la actividad Visor
         Intent intent = new Intent(this,Numeros.class);
+        startActivity(intent);
+
+    }
+
+    public void fru(){
+
+        //Iniciando la actividad Visor
+        Intent intent = new Intent(this,Frutas.class);
         startActivity(intent);
 
     }
