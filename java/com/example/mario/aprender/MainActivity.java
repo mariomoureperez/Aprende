@@ -44,6 +44,14 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        animales.setOnClickListener(new View.OnClickListener(){
+            //@Override
+            public void onClick(View v){
+                ani();
+            }
+
+        });
+
 
     }
 
@@ -71,6 +79,14 @@ public class MainActivity extends AppCompatActivity {
 
         //Iniciando la actividad Visor
         Intent intent = new Intent(this,Frutas.class);
+        startActivity(intent);
+
+    }
+
+    public void ani(){
+
+        //Iniciando la actividad Visor
+        Intent intent = new Intent(this,Animales.class);
         startActivity(intent);
 
     }

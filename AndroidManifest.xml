@@ -17,7 +17,10 @@
         </activity>
         <activity android:name=".Letras" />
         <activity android:name=".Numeros" />
-        <activity android:name=".Frutas"></activity>
+        <activity android:name=".Frutas" />
+        <activity android:name=".Musica" />
+        <activity android:name=".Animales" />
+        <activity android:name=".Colores"></activity>
     </application>
 
 </manifest>
