@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Button colores=(Button) findViewById(R.id.colores);
         Button animales=(Button) findViewById(R.id.animales);
 
-       letras.setOnClickListener(new View.OnClickListener(){
+        letras.setOnClickListener(new View.OnClickListener(){
             //@Override
             public void onClick(View v){
                 letras();

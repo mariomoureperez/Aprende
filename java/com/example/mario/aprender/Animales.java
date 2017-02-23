@@ -15,6 +15,7 @@ public class Animales extends AppCompatActivity {
 
         Button elefante = (Button) findViewById(R.id.elefante);
         Button leon = (Button) findViewById(R.id.leon);
+
         elefante.setOnClickListener(new View.OnClickListener(){
             //@Override
             public void onClick(View v){
